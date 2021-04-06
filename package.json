@@ -10,13 +10,13 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:CreatePackageFromGit.helloWorld"
+    "onCommand:CreatePackageFromGit.start"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "CreatePackageFromGit.helloWorld",
+        "command": "CreatePackageFromGit.start",
         "title": "Create Package.xml from Git"
       }
     ]

@@ -10,7 +10,7 @@ export function activate(context: vscode.ExtensionContext) {
 	console.log('Congratulations, your extension "CreatePackageFromGit" is now active!');
 	context.subscriptions.push(
 		vscode.commands.registerCommand(
-			'CreatePackageFromGit.helloWorld', () => {
+			'CreatePackageFromGit.start', () => {
 			vscode.window.showInformationMessage('Hello from SFDX Git Package Creator!');
 		})
 	);
